@@ -1,0 +1,132 @@
+.divtt {
+  margin-top: 128px;
+  margin-left: 55px;
+}
+.subhead {
+  display: flex;
+  font-family: Open Sans, sans-serif;
+  padding-top: 40px;
+}
+.subhead span {
+  margin-right: 50px;
+  color: grey;
+}
+.s1div {
+  display: flex;
+  font-family: Open Sans, sans-serif;
+}
+.s2div {
+  /* height:150px; */
+  /* width:100%; */
+  /* border: 1px solid black; */
+
+  border-radius: 3px;
+}
+.s2div .simg {
+  height: 150px;
+  width: 200px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.sp2 {
+  font-size: 22px;
+  margin-bottom: 6px;
+  margin-left: 20px;
+ 
+  cursor: pointer;
+}
+.sp2:hover{
+  text-decoration: underline;
+}
+.sp1,
+.sp3 {
+  margin-left: 20px;
+
+  font-size: 14px;
+  color: grey;
+  margin-bottom: 1px;
+}
+/* .s3div{
+margin-left:20px;
+} */
+.sv1 {
+  color: rgb(34, 219, 243);
+}
+.shead {
+  height: 95px;
+  /* margin-top: 10px;
+margin-left: 10px; */
+}
+hr {
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+  width: 1150px;
+  /* margin-top: 20px; */
+  margin-bottom: 10px;
+}
+#hr1 {
+  width: 100%;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+#content {
+  margin-left: 5%;
+  /* width: 100%; */
+}
+.s4div {
+  display: flex;
+  width: 13%;
+  margin-right: 13%;
+  /* margin-left:auto; */
+  margin-top:6%;
+  height: 30px;
+  border: 1.5px solid #0073b1;
+  color: #0073b1;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  }
+
+  .remove{
+    margin-right: 1%;
+    display: flex;
+    margin-left:auto;
+  margin-top:2.5%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 40px;
+  color: grey;
+letter-spacing: -2px;
+
+/* height: fit-content; */
+  }
+
+  .s3div{
+    width:50%;
+  }
+
+  #dremove{
+  margin-left:61%;
+  position: relative;
+  bottom:30px;
+  background-color: white;
+  padding:10px;
+  box-shadow: 1px 3px 5px 0px rgb(75, 73, 73) ;
+   width:150px; 
+   cursor: pointer;
+   display: none;
+   opacity: .7;
+   border-radius: 2px;
+   border:1px solid rgb(155, 153, 153);
+  }
+
+  #dremove:hover{
+    background-color:rgb(230, 228, 228);
+    transition: .4s;
+  }
+
+
+
+  

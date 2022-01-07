@@ -1,0 +1,594 @@
+body{
+    margin:0;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif;
+    }
+    img,button{
+    cursor: pointer;
+}
+    #navbar-c{
+        width:100%;
+        height:52px;
+        background-color: #283e4a;
+        display: flex;
+        
+    }
+    #navbar-c p{
+        color: #fff;
+        letter-spacing: 2px;
+        font-weight: 400;
+          
+    }
+    #li-icon{
+        width:30px;
+        height:30px;
+        background-color: #283e4a;
+        margin-top:10px;
+        margin-left:14%;
+    }
+    #checkout{
+      
+        margin:auto;
+        width:750px;
+        margin-top:15px;
+       
+    }
+    #onlylap{
+        margin-left:1%;
+        width:98%;
+        display: flex;
+        height:87px;
+        box-shadow: 1px 1px 1px 1px rgb(196, 193, 193);
+    }
+    #c{
+        width:37%;
+        font-size:20px;
+        background-color:#398b18 ;
+        color:white;
+        text-align:center;
+        padding-top:29px;
+        padding-bottom: 29px;
+        
+    }
+    
+    #c-side{
+        font-size:21px;
+        margin-left:2%;
+      
+        margin-top:3%;
+    }
+    #video-info{
+        border: 2px solid rgb(206, 202, 202);  
+        width:100%;
+         
+    }
+    #amount{
+        border: 2px solid rgb(206, 202, 202);
+        width:100%;
+        height:110px;
+        margin-top:20px;
+
+    }
+    #list{
+        display: flex; 
+
+    }
+    #list h3{
+        font-weight:500;
+        margin-bottom:10px;
+    }
+    #round{
+        color:white;
+       width:28px;
+       height:28px;
+        border-radius: 50%;
+        background-color:#398b18 ;
+        margin-right:2%;
+        text-align: center;
+    }
+    #card{
+        border: 2px solid rgb(206, 202, 202);
+        width:100%;
+               
+    }
+    #card img{
+        width:50%;
+        padding:2%;
+        margin-left: 3%;
+    }
+    
+    #card-details{
+        width:100%;
+        
+    }
+    #form{
+        width:60%;
+        margin-left: 23%;
+    }
+    #namef,#namel,#namec{
+        width:90%;
+
+    }
+    hr{
+        opacity: .5;
+    }
+#i-flex{
+    display: flex;
+}
+#sec{
+    width:50%;
+    margin-left: 5%;;
+}
+#sec input{
+    width:90%;
+    margin-top:5px;
+}
+#exp{
+    width:40%;
+   
+}
+#exp input{
+    margin-top:5px;
+}
+#form{
+    margin-top:20px;
+}
+#form input{
+    height:28px;
+   
+}
+.info{
+    font-size: 14px;
+    margin-bottom: 4px;
+    opacity: 2;
+    margin-top:14px;
+}
+ #btnpay{
+    width:20%;
+    height:40px;
+    margin-left:39%;
+    margin-top:35px;
+    margin-bottom: 18px;
+    background-color: #0073b1;
+    color: #fff;
+    font-size: medium;
+    transition: .8s;
+}
+#review{
+    width:100%;
+    border: 2px solid rgb(206, 202, 202);
+}
+#review p{
+    padding:2%;
+    background-color: #f3f6f8;
+    width:90%;
+    
+    font-size: small;
+    margin-left:3%;
+    font-weight: 350;
+    text-align:justify;
+}
+#review ul{
+    margin-top: 30px;
+}
+#review li{
+    font-size:14px;
+    margin-top:4px;
+    opacity: .8;
+}
+#review button{
+    width:20%;
+    height:40px;
+    margin-left:40%;
+    margin-top:15px;
+   
+    background-color: #0073b1;
+    color: white;
+    font-size: medium;
+transition: .8s;
+}
+
+#faq{
+    border: 2px solid rgba(214, 212, 212, 0.986);
+    margin-top:20px;
+}
+#faq h3{
+   padding:2.5%;
+    background-color:#f3f6f8 ;
+    margin-top:0;
+    font-weight: normal;
+    font-size:normal;
+}
+#faqflex{
+    display:flex;
+    margin-left:1%;
+}
+#faq-ans{
+    width:30%;
+    margin-left:2%;
+}
+#faq-ans h5{
+    margin-top:10px;
+    font-weight:500;
+}
+#faq-ans p{
+    font-size: 11px;
+    margin-top:3px;
+    opacity: .8;
+}
+#link{
+margin-left:27%;
+margin-top:25px;
+margin-bottom:25px;
+font-size: 12px;
+}
+select{
+    width:92%;
+    height:35px;
+    margin-bottom: 12px;
+    
+}
+#tax{
+   
+    font-weight:340;
+    margin-left:2%;
+    font-size: 14px;
+    width:87%;
+}
+#taxprice{
+  
+    font-weight:340;
+   
+    font-size: 14px;
+
+}
+#totall{
+    margin-left:2%;
+    font-weight: 600; 
+    width:85%;
+}
+#tprice{
+    font-weight: 600;
+ 
+}
+#amount hr{
+    width:95%;
+    margin:0;
+    margin-left:2%;
+}
+#taxflex{
+    display: flex;  
+}
+
+/*icons*/
+.lock-icon{
+    fill:currentColor;
+        color:#c7d1d8;
+        margin-top:18px;
+        margin-left:.7%;
+        width:24px;
+        height:24px;
+    }
+    
+    .set-icon{
+        fill:currentColor;
+        color:#c7d1d8;
+        background-color: #283e4a;
+        margin-top:14px;
+        margin-left:56%;
+        width:24px;
+        height:24px;
+
+    }
+    .securelock{
+        display: flex;
+      width:20%;
+      height:fit-content;
+       margin-left:40%;
+    }
+    .securelock h4{
+        font-weight: 400;
+        color:#696c6f;
+    }
+   .s-lock-icon{
+    color:#696c6f;
+       margin-top:24px;
+       fill:currentColor;
+        width:20px;
+        height:24px;
+   }
+   #video-img{
+       width:95%;
+       height:90px;
+       margin: auto;
+   }
+   #video-icons{
+         display: flex;
+   }
+   #video-box{
+       display: flex;
+   }
+   #video-box1,#video-box2{
+       margin-left:3%;
+       width:48%;
+   }
+   #video-box1 div,#video-box2 div{
+       margin-bottom:5px;
+   }
+   #include{
+       font-weight: 500;
+       margin-left: 3%;
+       margin-bottom: 6px;
+   }
+#no-videos,#icons-space{
+    margin-left:2%;
+}
+#courses{
+   
+    background-color: #f3f6f8;
+    font-size: small;
+    font-weight: 350;
+    text-align:justify;
+    width:94%;
+   padding:.08% 3% .08% 3%;
+      
+}
+#video-info hr{
+    margin-bottom:0;
+}
+
+.box-icons{
+    width:24px;
+    height:24px;
+}
+#btnpay:hover,#review button:hover{
+    background-color: #094f9e;
+}
+ #wrongf,#wrongl,#wrongc,#wrongcvv,#wrongpin,#wronge{
+    font-size:12px;
+    color:red;
+    
+}
+
+#video-img{
+    display: flex;
+}
+#video-img img{
+    width:18%;
+    height:70px;
+    margin:10px;
+
+}
+#cours,#by{
+   font-weight: 200;
+   font-size: 14px;
+   margin-top:2px;
+  
+}
+  #title{
+     
+    font-weight: 500;
+    margin-top:15px;
+    overflow-y: hidden;
+    height: 21px;
+  }
+  #pricefinal{
+
+    height: 30px;
+    margin-left:7%;
+    margin-top: 14px;
+  }
+  #divv{
+      width:60%;
+     margin-left:2%;
+  }
+ 
+
+@media (max-width:900px){
+
+    #checkout{
+        width:80%;
+    }
+    .set-icon{
+        margin-left: 50%;
+    }
+    .securelock {
+        width:38%;
+        margin-left:40%;
+       }
+   
+}
+
+@media (max-width:750px){
+
+    #video-box{
+       display:inline-block;
+    }
+    #video-box1,#video-box2{
+        width:95%;
+    }
+    .set-icon{
+        margin-left: 40%;
+    }
+    #tax, #totall{
+        width:80%;
+    }
+    #form{
+        width:85%;
+        margin-left:10%;
+    }
+    #btnpay,#review button{
+        width:24%;
+        margin-left:35%;
+    }
+    .securelock {
+        width:38%;
+        margin-left:35%;
+       }
+       .securelock h4{
+           font-size: small;
+           margin-top:22px;
+       }
+       #faqflex{
+        display: inline;
+        margin-top:0;
+    }
+    #faq-ans{
+        width: 95%;
+    }
+    #faq-ans h5,#faq-ans p{
+        margin-top: 0;
+        margin-bottom:5px;
+    }
+    #faq h3{
+        margin-bottom: 0;
+    }
+    #link {
+        margin-left:20%;
+    }
+   #sec input{
+       width:90%;
+   }
+   #exp input{ 
+       width:100%;
+   }
+}
+
+@media (max-width:600px){
+    .set-icon{
+        margin-left: 30%;
+       
+    }
+    .lock-icon{
+        width:26px;
+        height:16px;
+        margin-top:12px;
+       
+    }
+   #onlylap{
+      height: 60px;
+      
+   }
+   #c,#c-side{
+       font-size: 105%;
+   }
+   #c{
+      padding:5%;
+   }
+   #navbar-c{
+       height:40px;
+   }
+  #navbar-c p{
+      font-size: 80%;
+  }
+  #navbar-c img{
+      width:20px;
+      height:20px;
+  }
+  #btnpay,#review button{
+    width:34%;
+    margin-left:30%;
+}
+ #review li,#review p{
+     font-size: x-small;
+ }
+ #review li{
+    width:90%;
+ }
+ .securelock {
+ width:38%;
+ margin-left:30%;
+ margin-top: 0;
+}
+#faqflex{
+    display: inline;
+    margin-top:0;
+}
+#faq-ans{
+    width: 95%;
+}
+#faq-ans h5,#faq-ans p{
+    margin-top: 0;
+    margin-bottom:5px;
+}
+#faq h3{
+    margin-bottom: 0;
+}
+.set-icon{
+    margin-top: 8px;
+}
+#sec{
+    width:50%;
+}
+#sec input{
+    width:90%;
+}
+  
+}
+@media (max-width:470px){
+   body{
+     
+      min-width: 370px;
+      /* border:1px solid red; */
+    }
+  
+    .set-icon{
+       display: none;
+    }
+    #onlylap{
+        height: 50px;
+        
+     }
+    #c,#c-side{
+
+        font-size: 80%;
+    }
+    #icons-space,#no-videos{
+        font-size:75%;
+        margin-top:1px;
+    }
+    #courses{
+        font-size:50%;
+    }
+    #video-img,#by,#cours{
+        font-size: 84%;
+    }
+    #include{
+        font-size: 90%;
+    }
+    #video-img img{
+        width:35%;
+    }
+    #amount{
+     height:80px;
+    }
+    #amount p{
+        font-size: small;
+    }
+    #tax, #totall{
+        width:78%;
+    }
+    #list h3{
+        font-size: medium;
+    }
+   #form{
+       width:98%;
+       margin-left:4%;
+      
+   }
+   #form input,select{
+       height:20px;
+   }
+   .info{
+       font-size: small;
+   }
+   #btnpay,#review button{
+    width:40%;
+    margin-left:27%;
+    height:30px;
+    font-size: small;
+}
+#link {
+    margin-left:10%;
+}
+
+}
